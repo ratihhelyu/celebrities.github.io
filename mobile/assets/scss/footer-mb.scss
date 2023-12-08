@@ -1,0 +1,112 @@
+.footer-cont {
+    padding: 24px 16px;
+    align-items: center;
+    position: relative;
+    display: grid;
+    background: #222934;
+    gap: 40px;
+    padding-bottom: 70px;
+    .top-footer {
+      width: 243px;
+      height: 60px;
+      margin: auto;
+      img {
+         width: 100%;
+         object-fit: cover;
+      }
+    }
+    .center-footer {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      .list-wrap {
+         width: 100%;
+         .list {
+            display: grid;
+            gap: 24px;
+            padding-inline-start: 0;
+            margin: 0;
+            li {
+               list-style: none;
+               a {
+                  text-decoration: none;
+                  display: block;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: normal;
+                  color: #fff;
+               }
+            }
+         }
+      }
+    }
+    .bottom-footer {
+      display: grid;
+      gap: 40px;
+      .sosmed-wrap {
+         display: flex;
+         justify-content: center;
+         position: relative;
+         gap: 12px;
+         a {
+            text-decoration: none;
+            img {
+               width: 32px;
+               height: 32px;
+            }
+         }
+      }
+      .store-cont {
+         display: grid;
+         justify-content: center;
+         gap: 24px;
+         .title {
+            ont-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            color: #fff;
+            text-align: center;
+         }
+         .store-wrap {
+            display: flex;
+            gap: 12px;
+            .play-store {
+               width: 120px;
+               height: 37px;
+               a {
+                  text-decoration: none;
+                  img {
+                     width: 100%;
+                     object-fit: cover;
+                  }
+               }
+            }
+         }
+      }
+      .mpi-logo {
+         width: 194px;
+         height: 49px;
+         margin: auto;
+         img {
+            width: 100%;
+            object-fit: cover;
+         }
+      }
+    }
+    .copyright {
+      color: #fff;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      background: #455060;
+      padding: 12px 8px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      text-align: center;
+    }
+}
